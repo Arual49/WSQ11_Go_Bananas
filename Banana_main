@@ -1,0 +1,15 @@
+def count_banana ():
+	file = open ("banana.txt", "r")
+	format_text = file.read()
+	format_text = format_text.upper()
+	format_text = format_text.replace (" ", "")
+	format_text = format_text.replace ("\n", "")
+	
+	count_b = format_text.count("BANANA")
+	
+	file.close()
+	return count_b
+	
+print ("Hello! I've been programmed to count how many times does the word banana (in any format) is written in the file 'banana.txt'")
+banana = count_banana()
+print ("There are " + str(banana) + " banana words written")

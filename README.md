@@ -1,0 +1,2 @@
+# WSQ11_Go_Bananas
+What To Do Write a function called find_bananas which receives a single parameter called filename (a string) and returns a positive integer which is the number of times the word (string) “banana”  (or “BANANA” ) is found in the file. The banana can be any case (‘BaNana’ or ‘BANANA’ or ‘banana’, etc) and they can be “stuck together” like “banAnaBANANA” (that counts as two). Create your own test file (plain text) to check your work.
